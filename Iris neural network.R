@@ -8,7 +8,7 @@ iris_shuffle <- iris[sample(1:nrow(iris)),] #randomize row order of dataset
 row.names(iris_shuffle) <- 1:nrow(iris_shuffle) #renumber rows
 training_data <- iris_shuffle[c(1:125),] #take first 125 rows as training data
 
-nn=neuralnet(Species ~ .,training_data, hidden=c(8,6,4)) 
+nn=neuralnet(Species ~ .,training_data, hidden=c(6,4)) 
 
 plot(nn, arrow.length = .15, 
      col.entry = "purple",
