@@ -1,5 +1,5 @@
 # Simple-Neural-Network-R
-Using R, this neural network contains 2 hidden layers and predicts iris species using petal and sepal size values as inputs. 
+This neural network predicts iris species using petal and sepal size values as inputs. It contains 2 hidden layers with 6 nodes in the first and 4 nodes in the second.
 
 <img src="Iris Neural Network Diagram.png">
 
